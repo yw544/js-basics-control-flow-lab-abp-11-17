@@ -21,4 +21,17 @@ function ternaryCheckCity(city)
   return "No go."
 }
 
-var switchOnCharmFromTip(a)
+function switchOnCarmFromTip(tip)
+{
+  if switch(tip)
+  {
+  case "generous"
+  text = "Thank you so much."
+  break;
+  case "not as generous"
+  text = "Thank you."
+  break;}
+
+  else
+  return "Bye"
+}
