@@ -23,13 +23,10 @@ function ternaryCheckCity(city)
 
 function switchOnCarmFromTip(tip)
 {
-switch(tip)
-  {
-  case "generous"
-  text = "Thank you so much."
-  break;
-  case "not as generous"
-  text = "Thank you."
-  break;}
-
-}
+if tip === "generous"
+return "Thank you so much."
+ else if tip === "not as generous"
+ return "Thank you."
+ else 
+ return "Bye."
+ }
